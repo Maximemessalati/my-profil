@@ -1,0 +1,87 @@
+
+body, 
+h1, 
+h2, 
+h3, 
+p 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Times New Roman, sans-serif;
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner {
+    background-image: url('images/PSG.jpg');
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    font-size: 36px;
+}
+
+.banner h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.btn-blue {
+    display: inline-block;
+    background-color: #727272;
+    color: #B50000;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.price {
+    color: #0074D9;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
